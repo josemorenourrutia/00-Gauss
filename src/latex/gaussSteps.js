@@ -1,5 +1,5 @@
 import katex from 'katex'; //https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.mjs';
-import 'katex/dist/katex.min.css';
+// import 'katex/dist/katex.min.css';
 
 import nerdamer from 'nerdamer';
 import 'nerdamer/Algebra';

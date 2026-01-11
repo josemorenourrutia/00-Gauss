@@ -1,8 +1,12 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  server: {
-    open: true,
+  // server: {
+  //   open: true,
+  // },
+  css: {
+    transformer: 'postcss',
+    lightningcss: false
   },
   resolve: {
     alias: {
@@ -11,4 +15,5 @@ export default defineConfig({
       '@controls': '/src/controls',
     },
   },
+
 });

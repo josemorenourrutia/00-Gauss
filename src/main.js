@@ -7,6 +7,8 @@ import 'nerdamer/Calculus';
 import 'nerdamer/Solve';
 import 'nerdamer/Extra';
 
+import 'katex/dist/katex.min.css';
+
 
 import {
   gaussStepsInteger,
