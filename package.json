@@ -1,0 +1,26 @@
+{
+  "name": "threejs-vite-base",
+  "version": "1.0.0",
+  "description": "Proyecto base de Three.js con Vite",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "three.js",
+    "vite",
+    "webgl"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "katex": "^0.16.27",
+    "nerdamer": "^1.1.13",
+    "three": "^0.181.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
